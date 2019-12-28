@@ -1,9 +1,9 @@
 def reverse_each_word(sentence)
 
 	separate = sentence.split
-# 	separate.map do |word|
-# 		word.reverse
+	separate.map do |word|
+		word.reverse
 		
-# 	end
+	end
 	separate.join(' ')
 end
