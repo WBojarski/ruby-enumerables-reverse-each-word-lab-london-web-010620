@@ -1,7 +1,7 @@
 def reverse_each_word(sentence)
 
 	separate = sentence.split
-	separate.map do |word|
+	new_separate = separate.map do |word|
 		word.reverse
 		
 	end
